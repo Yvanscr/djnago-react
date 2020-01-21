@@ -64,7 +64,7 @@ class HeadLayout extends React.Component {
               <Menu.Item> <NavLink exact to='/home'><img src={logo} width="150" height="40" alt="" /></NavLink></Menu.Item>
               <Menu.Item key = "1" >
           <NavLink exact to='/home'><Icon type = "home" style={{color: 'red'}} />
-            <span> Acceuil </span></NavLink>
+            <span> Accueil </span></NavLink>
           </Menu.Item>
           <Menu.Item key="2" >
             <NavLink exact to='/depots'><Icon type="file-add" style={{color: 'red'}} /><span > Dépôts </span></NavLink>

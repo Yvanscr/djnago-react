@@ -20,7 +20,7 @@ class DocAdministratif extends React.Component {
     return (
       <HeadLayout>
         <Breadcrumb style={{ margin: '16px 0' }}>
-              <Breadcrumb.Item><NavLink exact to='/home'>Acceuil</NavLink></Breadcrumb.Item>
+              <Breadcrumb.Item><NavLink exact to='/home'>Accueil</NavLink></Breadcrumb.Item>
               <Breadcrumb.Item><NavLink exact to='/mesfichiers'>Mes fichiers</NavLink></Breadcrumb.Item>
               <Breadcrumb.Item><NavLink exact to='/docadmin'>Documents administratifs</NavLink></Breadcrumb.Item>
         </Breadcrumb>

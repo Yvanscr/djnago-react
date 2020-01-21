@@ -11,7 +11,7 @@ class FacturesF extends React.Component {
     return (
       <HeadLayout>
         <Breadcrumb style={{ margin: '16px 0' }}>
-              <Breadcrumb.Item><NavLink exact to='/home'>Acceuil</NavLink></Breadcrumb.Item>
+              <Breadcrumb.Item><NavLink exact to='/home'>Accueil</NavLink></Breadcrumb.Item>
               <Breadcrumb.Item><NavLink exact to='/depots'>Dépôts</NavLink></Breadcrumb.Item>
               <Breadcrumb.Item><NavLink exact to='/facturesF'>Factures Fournisseurs</NavLink></Breadcrumb.Item>
         </Breadcrumb>
